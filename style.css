@@ -1,0 +1,74 @@
+img{
+   width:80%;  
+}
+
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+.dream-big{
+  
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+.tail-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+
+
+.section-spit{
+    display:flex;
+    
+}
+.div-row{
+    width:50%;
+    padding: 0 3%;
+
+}
+p{
+    text-align: justify;
+}
+.orange-text{
+    color:  orangered;
+}
+a{
+    text-decoration: none;
+    color:black;
+    background-image: linear-gradient(orange, orangered);
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 50%;
+}
+h1{
+
+    font-size: 40px;
+}
+strong{
+    font-size: 20px;
+}
+.card{
+    width: 80%;
+    height: 400px;
+    box-shadow: 4px 4px 10px gray;
+    margin: 5%;
+    
+}
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( orange, orangered) ; 
+    border-image-slice: 1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan) ; 
+    border-image-slice: 1;
+}
